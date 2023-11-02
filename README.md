@@ -1,10 +1,18 @@
-# AL-Go Per Tenant Extension Template
-This template repository can be used for managing AppSource Apps for Business Central.
+# Customer Classification AL Extension
 
-Please go to https://aka.ms/AL-Go to learn more.
+This is a Business Central AL extension to showcase how we could implement a Customer Classification System based on Sales Volume.
 
-## Contributing
+It is created based on AL-Go Extension Template (https://github.com/microsoft/AL-Go)
 
-Please read [this](https://github.com/microsoft/AL-Go/blob/main/Scenarios/Contribute.md) description on how to contribute to AL-Go for GitHub.
+# How To Test
 
-We do not accept Pull Requests on the template repository directly.
+1- Clone the code to VS Code
+2- Execute in Powershell: \.AL-Go> .\localDevEnv.ps1 -containerName ccs
+3- Follow instructions of the script
+--> The script will create a local container, compile the app and execute the test app. 
+
+# Pre-Requisites
+
+1- VS Code
+2- Git for Windows
+2- Docker engine or Docker Desktop
