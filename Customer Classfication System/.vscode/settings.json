@@ -1,0 +1,35 @@
+{
+    "al.codeAnalyzers": [
+        "${PerTenantExtensionCop}",
+        "${CodeCop}",
+        "${UICop}"
+    ],
+    "al.enableCodeAnalysis": true,
+    "al.ruleSetPath": ".vscode\\additionalRules.json",
+    "CRS.ObjectNamePrefix": "IMA",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectType>Ext.al",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.DisableDefaultAlSnippets": true,
+    "CRS.AlSubFolderName": "src",
+    "al.defaultLaunchConfigurationName": "Docker",
+    "alOutline.codeCleanupActions": [
+        "FixKeywordsCase",
+        "FixIdentifiersCase",
+        "SortVariables",
+        "AddApplicationAreas",
+        "SortTableFields",
+        "AddMissingParentheses"
+    ],
+    "runItOn": {
+        "commands": [
+            {
+                "match": "\\.al*",
+                "isShellCommand": false,
+                "cmd": "azALDevTools.RunEditorCodeCleanup"
+            }
+        ]
+    }
+}

@@ -22,7 +22,13 @@
       "name": "Any",
       "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
       "version": "22.0.0.0"
-    }
+    },
+    {
+      "id": "31804d4b-12b3-4510-ab26-115a45d2ffb3",
+      "name": "Customer Classification System",
+      "publisher": "IhebMah",
+      "version": "1.0.0.0"
+    } 
   ],
   "screenshots": [],
   "platform": "1.0.0.0",
