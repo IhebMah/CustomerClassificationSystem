@@ -5,7 +5,7 @@ table 50100 "IMACustomer Class Setup"
 
     fields
     {
-        field(1; "Calss Code"; Code[1])
+        field(1; "Class Code"; Code[1])
         {
             DataClassification = OrganizationIdentifiableInformation;
             Caption = 'Class Code';
@@ -34,7 +34,7 @@ table 50100 "IMACustomer Class Setup"
 
     keys
     {
-        key(Key1; "Calss Code")
+        key(Key1; "Class Code")
         {
             Clustered = true;
         }
@@ -42,7 +42,7 @@ table 50100 "IMACustomer Class Setup"
 
     fieldgroups
     {
-        fieldgroup(DropDown; "Calss Code", "Sales Amount From", "Sales Amount To")
+        fieldgroup(DropDown; "Class Code", "Sales Amount From", "Sales Amount To")
         {
 
         }

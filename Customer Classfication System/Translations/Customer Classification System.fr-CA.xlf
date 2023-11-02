@@ -24,7 +24,7 @@
         <trans-unit id="Table 2800031716 - Field 1191394725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Class Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Field Calss Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Field Class Code - Property Caption</note>
           <target state="needs-review-translation">Code Classe</target>
         </trans-unit>
         <trans-unit id="Page 2800031716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -36,7 +36,7 @@
         <trans-unit id="Page 2800031716 - Control 1191394725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Class Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page IMACustomer Class Setup - Control Calss Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IMACustomer Class Setup - Control Class Code - Property ToolTip</note>
           <target state="needs-review-translation">Specifie la valeur du champ Code Classe.</target>
         </trans-unit>
         <trans-unit id="PageExtension 37930144 - Control 3631416706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">

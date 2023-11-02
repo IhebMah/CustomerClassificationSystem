@@ -5,7 +5,7 @@
         "${UICop}"
     ],
     "al.enableCodeAnalysis": true,
-    "CRS.ObjectNamePrefix": "RIT",
+    "CRS.ObjectNamePrefix": "IMA",
     "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
     "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectType>Ext.al",

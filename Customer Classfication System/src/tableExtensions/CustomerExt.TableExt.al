@@ -6,7 +6,7 @@ tableextension 50100 IMACustomerExt extends Customer
         {
             Caption = 'Classification Code';
             DataClassification = OrganizationIdentifiableInformation;
-            TableRelation = "IMACustomer Class Setup"."Calss Code";
+            TableRelation = "IMACustomer Class Setup"."Class Code";
             ValidateTableRelation = true;
 
             trigger OnValidate()
