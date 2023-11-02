@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-CA" original="Customer Classification System.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2800031716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Classification Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Property Caption</note>
+          <target state="needs-review-translation">Configuration Classification Client</target>
+        </trans-unit>
+        <trans-unit id="Table 2800031716 - Method 1088984403 - NamedType 1636877840" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 and %2 cannot be both empty.</source>
+          <note from="Developer" annotates="general" priority="2">%1 and %2 are Sales Amount From/To fields values </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Method CheckSalesVolumeInterval - NamedType SalesVolumeFromToMissingErr</note>
+          <target state="needs-review-translation">%1 et %2 ne peux pas etre vide.</target>
+        </trans-unit>
+        <trans-unit id="Table 2800031716 - Method 1088984403 - NamedType 3499176254" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be greater than %3, %1=%2,%3=%4.</source>
+          <note from="Developer" annotates="general" priority="2">%1 and %3 are Sales Amount From/To fields captions. %2 and %4 are Sales Amount From/To fields values.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Method CheckSalesVolumeInterval - NamedType SalesVolumeIntervalErr</note>
+          <target state="needs-review-translation">%1 ne peut pas être supérieur %3, %1=%2,%3=%4.</target>
+        </trans-unit>
+        <trans-unit id="Table 2800031716 - Field 1191394725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Field Calss Code - Property Caption</note>
+          <target state="needs-review-translation">Code Classe</target>
+        </trans-unit>
+        <trans-unit id="Page 2800031716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Classification Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IMACustomer Class Setup - Property Caption</note>
+          <target state="needs-review-translation">Configuration Classification Client</target>
+        </trans-unit>
+        <trans-unit id="Page 2800031716 - Control 1191394725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Class Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IMACustomer Class Setup - Control Calss Code - Property ToolTip</note>
+          <target state="needs-review-translation">Specifie la valeur du champ Code Classe.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 37930144 - Control 3631416706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the Classification Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IMACustomerCardExt - Control IMAClass Code - Property ToolTip</note>
+          <target state="needs-review-translation">Specifie la valeur du champ Code Classification.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3044328486 - Control 3631416706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Specifies the value of the Classification Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IMACustomerListExt - Control IMAClass Code - Property ToolTip</note>
+          <target state="needs-review-translation">Specifie la valeur du champ Code Classification.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3463324335 - Control 2555506646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Specifies the value of the Customer Class Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IMASalesInvoiceExt - Control IMACustomer Class Code - Property ToolTip</note>
+          <target state="needs-review-translation">Specifie la valeur du champ Code Classification.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2830931558 - Control 2555506646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Specifies the value of the Customer Class Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IMASalesOrderExt - Control IMACustomer Class Code - Property ToolTip</note>
+          <target state="needs-review-translation">Specifie la valeur du champ Code Classification.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3654072274 - Control 2555506646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the value of the Customer Class Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IMASalesQuoteExt - Control IMACustomer Class Code - Property ToolTip</note>
+          <target state="needs-review-translation">Specifie la valeur du champ Code Classification.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 699544693 - Control 2630267056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Specifies the value of the Default Customer Class field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IMASalesReceivablePageExt - Control IMADefault Customer Class - Property ToolTip</note>
+          <target state="needs-review-translation">Specifie la valeur du champ Classe Client par default.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3370736924 - Field 3631416706 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Classification Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension IMACustomerExt - Field IMAClass Code - Property Caption</note>
+          <target state="needs-review-translation">Code Classification</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3370736924 - Field 3631416706 - Method 2126772001 - NamedType 3710812043" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3370736924">
+          <source>You do not have the right permission to modify this value manually.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension IMACustomerExt - Field IMAClass Code - Method OnValidate - NamedType PermissionsMissingErr</note>
+          <target state="needs-review-translation">Vous ne disposez pas des permissions nécessaires pour modifier cette valeur manuellement.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1160020573 - Field 2555506646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Customer Class Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension IMASalesHeaderExt - Field IMACustomer Class Code - Property Caption</note>
+          <target state="needs-review-translation">Code Classe Client</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2785883689 - Field 2630267056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Default Customer Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension IMASalesReceivableSetupExt - Field IMADefault Customer Class - Property Caption</note>
+          <target state="needs-review-translation">Classe Client par default</target>
+        </trans-unit>
+        <trans-unit id="PermissionSet 449585363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CCS Admin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet IMACCS Admin - Property Caption</note>
+          <target state="needs-review-translation">CCS Admin</target>
+        </trans-unit>
+        <trans-unit id="Table 2800031716 - Field 2376304742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+          <source>Sales Amount From</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Field Sales Amount From - Property Caption</note>
+          <target state="">Volume de Vente De</target>
+        </trans-unit>
+        <trans-unit id="Table 2800031716 - Field 4077265529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+          <source>Sales Amount To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IMACustomer Class Setup - Field Sales Amount To - Property Caption</note>
+          <target state="">Volume de Vente À</target>
+        </trans-unit>
+        <trans-unit id="Page 2800031716 - Control 2376304742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+          <source>Specifies the value of the Sales Amount From field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IMACustomer Class Setup - Control Sales Amount From - Property ToolTip</note>
+          <target state="">Specifie la valeur du champ Volume de Vente De</target>
+        </trans-unit>
+        <trans-unit id="Page 2800031716 - Control 4077265529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+          <source>Specifies the value of the Sales Amount To field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IMACustomer Class Setup - Control Sales Amount To - Property ToolTip</note>
+          <target state="">Specifie la valeur du champ Volume de Vente À</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
