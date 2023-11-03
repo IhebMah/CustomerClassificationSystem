@@ -1,4 +1,4 @@
-pageextension 50106 IMASalesReceivablePageExt extends "Sales & Receivables Setup"
+pageextension 50105 IMASalesReceivablePageExt extends "Sales & Receivables Setup"
 {
     layout
     {

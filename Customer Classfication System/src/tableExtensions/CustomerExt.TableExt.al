@@ -11,16 +11,12 @@ tableextension 50100 IMACustomerExt extends Customer
 
             trigger OnValidate()
             var
-                UserPermissions: Codeunit "User Permissions";
-                ModulInfo: ModuleInfo;
-                RoleID: Code[20];
-                PermissionsMissingErr: label 'You do not have the right permission to modify this value manually.';
+                UserSetup: Record "User Setup";
+                PermissionsMissingErr: label 'You are not allowed to modify this value manually.';
             begin
-                RoleID := 'IMACCS ADMIN';
-                if NavApp.GetCurrentModuleInfo(ModulInfo) then
-                    if not UserPermissions.HasUserPermissionSetAssigned(UserSecurityId(), CurrentCompany, RoleID, 0, ModulInfo.Id) then
-                        Error(PermissionsMissingErr);
-
+                UserSetup.Get(UserId);
+                if not UserSetup."IMAAllow Edit Customer Class" then
+                    error(PermissionsMissingErr);
             end;
         }
 

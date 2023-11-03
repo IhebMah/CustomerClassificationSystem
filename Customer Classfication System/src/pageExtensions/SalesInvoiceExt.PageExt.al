@@ -1,4 +1,4 @@
-pageextension 50105 IMASalesInvoiceExt extends "Sales Invoice"
+pageextension 50104 IMASalesInvoiceExt extends "Sales Invoice"
 {
     layout
     {

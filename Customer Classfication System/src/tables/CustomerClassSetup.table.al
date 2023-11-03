@@ -54,6 +54,19 @@ table 50100 "IMACustomer Class Setup"
         CheckSalesVolumeInterval();
     end;
 
+    trigger OnModify()
+    begin
+        CheckSalesVolumeInterval();
+    end;
+
+    trigger OnDelete()
+    var
+        DeleteRecordErr: Label 'It is not possible to delete a used classification.';
+    begin
+        if IsUsed() then
+            Error(DeleteRecordErr);
+    end;
+
     local procedure CheckSalesVolumeInterval()
     var
         SalesVolumeFromToMissingErr: Label '%1 and %2 cannot be both empty.', Comment = '%1 and %2 are Sales Amount From/To fields values ';
@@ -64,5 +77,13 @@ table 50100 "IMACustomer Class Setup"
         if "Sales Amount To" > 0 then
             if "Sales Amount From" > "Sales Amount To" then
                 Error(SalesVolumeIntervalErr, Rec."Sales Amount From", Rec.FieldCaption("Sales Amount From"), Rec."Sales Amount To", Rec.FieldCaption("Sales Amount To"));
+    end;
+
+    local procedure IsUsed(): Boolean
+    var
+        Customer: Record Customer;
+    begin
+        Customer.SetRange("IMAClass Code", rec."Class Code");
+        exit(not Customer.IsEmpty());
     end;
 }
