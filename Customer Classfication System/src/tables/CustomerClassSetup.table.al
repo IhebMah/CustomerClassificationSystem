@@ -5,7 +5,7 @@ table 50100 "IMACustomer Class Setup"
 
     fields
     {
-        field(1; "Calss Code"; Code[1])
+        field(1; "Class Code"; Code[1])
         {
             DataClassification = OrganizationIdentifiableInformation;
             Caption = 'Class Code';
@@ -34,7 +34,7 @@ table 50100 "IMACustomer Class Setup"
 
     keys
     {
-        key(Key1; "Calss Code")
+        key(Key1; "Class Code")
         {
             Clustered = true;
         }
@@ -42,7 +42,7 @@ table 50100 "IMACustomer Class Setup"
 
     fieldgroups
     {
-        fieldgroup(DropDown; "Calss Code", "Sales Amount From", "Sales Amount To")
+        fieldgroup(DropDown; "Class Code", "Sales Amount From", "Sales Amount To")
         {
 
         }
@@ -52,6 +52,19 @@ table 50100 "IMACustomer Class Setup"
     trigger OnInsert()
     begin
         CheckSalesVolumeInterval();
+    end;
+
+    trigger OnModify()
+    begin
+        CheckSalesVolumeInterval();
+    end;
+
+    trigger OnDelete()
+    var
+        DeleteRecordErr: Label 'It is not possible to delete a used classification.';
+    begin
+        if IsUsed() then
+            Error(DeleteRecordErr);
     end;
 
     local procedure CheckSalesVolumeInterval()
@@ -64,5 +77,13 @@ table 50100 "IMACustomer Class Setup"
         if "Sales Amount To" > 0 then
             if "Sales Amount From" > "Sales Amount To" then
                 Error(SalesVolumeIntervalErr, Rec."Sales Amount From", Rec.FieldCaption("Sales Amount From"), Rec."Sales Amount To", Rec.FieldCaption("Sales Amount To"));
+    end;
+
+    local procedure IsUsed(): Boolean
+    var
+        Customer: Record Customer;
+    begin
+        Customer.SetRange("IMAClass Code", rec."Class Code");
+        exit(not Customer.IsEmpty());
     end;
 }

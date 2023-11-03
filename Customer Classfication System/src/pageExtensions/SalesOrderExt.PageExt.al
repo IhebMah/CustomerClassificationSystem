@@ -1,4 +1,4 @@
-pageextension 50104 IMASalesOrderExt extends "Sales Order"
+pageextension 50103 IMASalesOrderExt extends "Sales Order"
 {
     layout
     {

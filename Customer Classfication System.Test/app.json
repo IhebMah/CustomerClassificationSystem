@@ -24,8 +24,15 @@
       "version": "22.0.0.0"
     },
     {
+ 
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997", 
+      "publisher": "Microsoft", 
+       "name": "Tests-TestLibraries",
+      "version": "23.0.0.0" 
+    }  ,
+    {
       "id": "31804d4b-12b3-4510-ab26-115a45d2ffb3",
-      "name": "Customer Classification System",
+      "name": "Customer Classfication System",
       "publisher": "IhebMah",
       "version": "1.0.0.0"
     } 
@@ -46,5 +53,6 @@
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "runtime": "12.0"
 }

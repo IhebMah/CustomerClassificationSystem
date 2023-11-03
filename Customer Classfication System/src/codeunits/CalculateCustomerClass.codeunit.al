@@ -25,7 +25,7 @@ codeunit 50100 IMACalculateCustomerClass
         CustomerClassSetup.SetFilter("Sales Amount From", '<=%1|0', SalesAmount);
         CustomerClassSetup.SetFilter("Sales Amount To", '>=%1|0', SalesAmount);
         if CustomerClassSetup.FindFirst() then begin
-            ClassCode := CustomerClassSetup."Calss Code";
+            ClassCode := CustomerClassSetup."Class Code";
             exit(true);
         end;
     end;

@@ -13,7 +13,7 @@ page 50100 "IMACustomer Class Setup"
         {
             repeater(Group)
             {
-                field("Calss Code"; Rec."Calss Code")
+                field("Class Code"; Rec."Class Code")
                 {
                     ToolTip = 'Specifies the value of the Class Code field.';
                 }
